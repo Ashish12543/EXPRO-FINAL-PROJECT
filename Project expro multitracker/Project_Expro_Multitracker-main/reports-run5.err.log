@@ -1,0 +1,71 @@
+C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+Press CTRL+C to quit
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/report HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/daily-summary HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/evaluation HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/nodes HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/video-analysis/jobs HTTP/1.1" 404 -
+[2026-04-16 01:23:33,977] ERROR in app: Exception on /api/camera-status [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Project expro multitracker\Project_Expro_Multitracker-main\smart_fall_activity_report.py", line 1474, in api_camera_status
+    "system_sleeping": system_sleeping,
+                       ^^^^^^^^^^^^^^^
+NameError: name 'system_sleeping' is not defined
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/history HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/report HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/daily-summary HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/camera-status HTTP/1.1" 500 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/evaluation HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/nodes HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/video-analysis/jobs HTTP/1.1" 404 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/report HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/history HTTP/1.1" 200 -
+[2026-04-16 01:23:33,999] ERROR in app: Exception on /api/camera-status [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Project expro multitracker\Project_Expro_Multitracker-main\smart_fall_activity_report.py", line 1474, in api_camera_status
+    "system_sleeping": system_sleeping,
+                       ^^^^^^^^^^^^^^^
+NameError: name 'system_sleeping' is not defined
+127.0.0.1 - - [16/Apr/2026 01:23:33] "GET /api/daily-summary HTTP/1.1" 200 -
+127.0.0.1 - - [16/Apr/2026 01:23:34] "GET /api/camera-status HTTP/1.1" 500 -
+127.0.0.1 - - [16/Apr/2026 01:23:34] "GET /api/history HTTP/1.1" 200 -
+[2026-04-16 01:23:34,008] ERROR in app: Exception on /api/camera-status [GET]
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Project expro multitracker\Project_Expro_Multitracker-main\smart_fall_activity_report.py", line 1474, in api_camera_status
+    "system_sleeping": system_sleeping,
+                       ^^^^^^^^^^^^^^^
+NameError: name 'system_sleeping' is not defined
+127.0.0.1 - - [16/Apr/2026 01:23:34] "GET /api/camera-status HTTP/1.1" 500 -
+127.0.0.1 - - [16/Apr/2026 01:23:36] "GET /reports/export?period=weekly&format=pdf HTTP/1.1" 200 -

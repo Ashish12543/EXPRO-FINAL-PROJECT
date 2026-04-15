@@ -1,0 +1,7 @@
+C:\Users\HP\AppData\Roaming\Python\Python313\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+Traceback (most recent call last):
+  File "C:\Project expro multitracker\Project_Expro_Multitracker-main\smart_fall_activity_report.py", line 1186, in <module>
+    threading.Thread(target=activity_summary_worker, daemon=True).start()
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'activity_summary_worker' is not defined. Did you mean: 'activity_summary_dirty'?

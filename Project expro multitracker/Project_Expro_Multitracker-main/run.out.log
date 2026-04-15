@@ -1,0 +1,14 @@
+[INFO] Settings loaded
+Loaded 0 registered faces.
+Loaded stats for 0 people from database.
+Loaded 0 fall events from history.
+Starting Flask server thread...
+Flask: Starting server...
+ * Serving Flask app 'smart_fall_activity_report'
+ * Debug mode: off
+✓ Flask server should be running at http://0.0.0.0:5000
+  Access the report at: http://127.0.0.1:5000/
+Deployment mode: server | Node ID: LAPTOP-01PEMQND
+Identity mode: tracker-only numbering (ReID disabled).
+Video output mode: local preview window + dashboard preview
+YOLO11n-pose summary (fused): 109 layers, 2,866,468 parameters, 0 gradients, 7.4 GFLOPs
